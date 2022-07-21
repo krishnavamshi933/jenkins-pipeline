@@ -1,5 +1,5 @@
 
-@Library('MyLibrary') _
+@Library('MyLibrary')
 pipeline {
     agent any
     tools {
@@ -26,14 +26,7 @@ pipeline {
                 
             }
         
-        stage('Maven Build') {
-            steps {
-                script 
-                {
-                    maven_build.maven_build()
-                }
-                }
-            }
+    }
         
     }                
         
