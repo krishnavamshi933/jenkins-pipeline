@@ -30,7 +30,8 @@ pipeline {
             steps {
                 script 
                 {
-                    dir("dir1") {maven_build.maven_build()}
+                    maven_build.maven_build()
+                }
                 }
             }
         
