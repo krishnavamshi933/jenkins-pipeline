@@ -1,3 +1,5 @@
+
+@Library('MyLibrary') _
 pipeline {
     agent any
     tools {
