@@ -26,6 +26,12 @@ pipeline {
                 
             }
         }
+        stage('Maven Build') {
+            steps {
+                script 
+                {
+                    dir("dir1") {maven_build.maven_build()}
+                }
         
         
     }                
