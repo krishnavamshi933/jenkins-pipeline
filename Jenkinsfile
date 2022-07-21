@@ -22,7 +22,7 @@ pipeline {
                 script {
 				checkout_git.checkout_git()
 				       }
-                
+            }
                 
             }
         }
@@ -32,8 +32,8 @@ pipeline {
                 {
                     dir("dir1") {maven_build.maven_build()}
                 }
-        
+            }
         
     }                
         
-    }
+}
