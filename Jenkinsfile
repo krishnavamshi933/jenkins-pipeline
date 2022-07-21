@@ -19,7 +19,7 @@ pipeline {
             steps {
                 
                 script {
-				checkout_git.checkout_git("java-hello-world-with-maven")
+				checkout_git.checkout_git()
 				       }
                 
                 
