@@ -20,7 +20,7 @@ pipeline {
                 
                 script {
 				dir("dir1") {checkout_git.checkout_git("java-hello-world-with-maven")}
-                dir("dir2") {checkout_git.checkout_git("mycoderepo")}
+                dir("dir2") {checkout_git.checkout_git("grv")}
 				       }
                 
                 
